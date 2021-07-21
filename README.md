@@ -1,9 +1,11 @@
 # CloMu
 Modeling Cancer Evolution With Reinforcement Learning
 
+Before running the code, make sure to unzip any required zipped folders. 
 
 
-Real Data:
+
+#Real Data:
 
 To train a model on the breast cancer data set or leukemia data set run
 
@@ -32,7 +34,7 @@ To determine the proportion based fitness of different mutations in the leukemia
 python cancer.py real proportion
 
 
-Recap Data:
+#Recap Data:
 
 
 To train a model on the recap data sets with 5 mutations or 7 mutations run
@@ -63,7 +65,7 @@ python cancer.py recap m7 plot
 
 
 
-Additional Simulated Expirements:
+#Additional Simulated Expirements:
 
 
 To train a model on the simulated data set of binary causal connections run
