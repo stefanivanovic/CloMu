@@ -1,8 +1,6 @@
 # CloMu
 Modeling Cancer Evolution With Reinforcement Learning
 
-# Test
-
 Dependencies:
 pytorch, numpy. 
 If one wants to using the plotting functions and some evaluation functions, then also matplotlib and scipy. 
@@ -11,7 +9,7 @@ Before running the code, make sure to unzip any required zipped folders.
 
 
 
-Real Data:
+### Running on the default break cancer and leukemia data sets:
 
 To train a model on the breast cancer data set or leukemia data set run
 
