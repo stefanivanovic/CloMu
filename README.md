@@ -12,30 +12,29 @@ Before running the code, make sure to unzip any required zipped folders.
 ### Running on the default breast cancer and leukemia data sets:
 
 To train a model on the breast cancer data set or leukemia data set run
-python cancer.py real breast train
+"python cancer.py real breast train"
 or 
-python cancer.py real leukemia train
-
-
+"python cancer.py real leukemia train". 
 
 
 To plot the results of these models run
-
-python cancer.py real breast plot
-
+"python cancer.py real breast plot"
 or
+"python cancer.py real leukemia plot"
 
-python cancer.py real leukemia plot
-
+To save the predicted trees for these models run
+"python cancer.py real breast predict"
+or
+"python cancer.py real leukemia predict"
 
 
 To determine the proportion based fitness of different mutations in the leukemia data set run 
+"python cancer.py real proportion"
 
 
-python cancer.py real proportion
 
 
-#Recap Data:
+### Recap Simulated Data:
 
 
 To train a model on the recap data sets with 5 mutations or 7 mutations run
