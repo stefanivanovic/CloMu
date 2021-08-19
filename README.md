@@ -94,5 +94,27 @@ To print the resulting accuracy of the model run
 python3 cancer.py test pathway print
 
 
+custom data set:
+
+To train a model on a custom data set run
+
+python cancer.py real breast train
+
+or 
+
+python cancer.py real leukemia train
+
+
+
+
+To plot the results of these models run
+
+python cancer.py real breast plot
+
+or
+
+python cancer.py real leukemia plot
+
+
 
 
