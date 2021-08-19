@@ -88,6 +88,8 @@ To plot the results of the model run
 To save the predictions of the model run
 "python cancer.py custom dataName predict".
 
+The predicts will be saved as a list of predictions for each patient. For each patient, the data is a list containing the patient number, the array of probabilities for each tree, and the list of possible trees corresponding to those probabilities. This file will be ./dataNew/predictedTrees_dataName.npz, where dataName is the name of the data set. 
+
 
 
 
