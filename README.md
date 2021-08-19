@@ -9,14 +9,11 @@ Before running the code, make sure to unzip any required zipped folders.
 
 
 
-### Running on the default break cancer and leukemia data sets:
+### Running on the default breast cancer and leukemia data sets:
 
 To train a model on the breast cancer data set or leukemia data set run
-
 python cancer.py real breast train
-
 or 
-
 python cancer.py real leukemia train
 
 
