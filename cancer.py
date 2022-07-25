@@ -1913,7 +1913,8 @@ def processTreeData(maxM, fileIn):
     count1 = 0
     for a in range(0, len(treeData)):
         treeList = treeData[a]
-        treeList = np.array(treeList)
+        #treeList = np.array(treeList)
+        treeList = np.array(list(treeList))
 
         if treeList.shape[1] <= maxM:
             size1 = treeList.shape[0]
