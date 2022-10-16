@@ -1,3 +1,5 @@
+# This is the old repository for CloMu. The new repository is located at https://github.com/elkebir-group/RECAP
+
 # CloMu
 Modeling Cancer Evolution With Reinforcement Learning
 
